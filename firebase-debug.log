@@ -1,0 +1,147 @@
+[debug] [2024-08-23T10:11:28.951Z] ----------------------------------------------------------------------
+[debug] [2024-08-23T10:11:28.955Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\MSI GAMING\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-08-23T10:11:28.955Z] CLI Version:   13.15.4
+[debug] [2024-08-23T10:11:28.955Z] Platform:      win32
+[debug] [2024-08-23T10:11:28.956Z] Node Version:  v20.16.0
+[debug] [2024-08-23T10:11:28.956Z] Time:          Fri Aug 23 2024 17:11:28 GMT+0700 (Western Indonesia Time)
+[debug] [2024-08-23T10:11:28.956Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-08-23T10:11:28.962Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-08-23T10:11:28.962Z] > authorizing via signed-in user (rezakabdul021@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\MSI GAMING\Downloads\web-dev-projects\personal-portfolio
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-08-23T10:12:32.051Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-08-23T10:12:32.051Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"personal-portfolio-web","name":"Personal Portfolio Website"}
+[debug] [2024-08-23T10:12:33.998Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2024-08-23T10:12:33.998Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2024-08-23T10:12:34.411Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at responseToError (C:\Users\MSI GAMING\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\MSI GAMING\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:305:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID personal-portfolio-web. Please try again with a unique project ID.
+[debug] [2024-08-23T10:13:03.775Z] ----------------------------------------------------------------------
+[debug] [2024-08-23T10:13:03.778Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\MSI GAMING\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-08-23T10:13:03.778Z] CLI Version:   13.15.4
+[debug] [2024-08-23T10:13:03.778Z] Platform:      win32
+[debug] [2024-08-23T10:13:03.778Z] Node Version:  v20.16.0
+[debug] [2024-08-23T10:13:03.778Z] Time:          Fri Aug 23 2024 17:13:03 GMT+0700 (Western Indonesia Time)
+[debug] [2024-08-23T10:13:03.779Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-08-23T10:13:03.785Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-08-23T10:13:03.785Z] > authorizing via signed-in user (rezakabdul021@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\MSI GAMING\Downloads\web-dev-projects\personal-portfolio
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-08-23T10:13:29.036Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-08-23T10:13:29.036Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"personal-portfolio-web-2024","name":"My React Portfolio"}
+[debug] [2024-08-23T10:13:31.579Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2024-08-23T10:13:31.579Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/cp.6028050986901917579"}
+[debug] [2024-08-23T10:13:31.583Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6028050986901917579 [none]
+[debug] [2024-08-23T10:13:33.004Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6028050986901917579 200
+[debug] [2024-08-23T10:13:33.004Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6028050986901917579 {"name":"operations/cp.6028050986901917579"}
+[debug] [2024-08-23T10:13:33.511Z] [Project Creation Poller] Retrying task index 0
+[debug] [2024-08-23T10:13:33.512Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6028050986901917579 [none]
+[debug] [2024-08-23T10:13:34.065Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6028050986901917579 200
+[debug] [2024-08-23T10:13:34.065Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6028050986901917579 {"name":"operations/cp.6028050986901917579","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true}}
+[debug] [2024-08-23T10:13:35.071Z] [Project Creation Poller] Retrying task index 0
+[debug] [2024-08-23T10:13:35.072Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6028050986901917579 [none]
+[debug] [2024-08-23T10:13:35.631Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6028050986901917579 200
+[debug] [2024-08-23T10:13:35.631Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6028050986901917579 {"name":"operations/cp.6028050986901917579","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"96915378520","projectId":"personal-portfolio-web-2024","lifecycleState":"ACTIVE","name":"My React Portfolio","createTime":"2024-08-23T10:13:31.915347Z"}}
+[debug] [2024-08-23T10:13:35.633Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/personal-portfolio-web-2024:addFirebase [none]
+[debug] [2024-08-23T10:13:37.012Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/personal-portfolio-web-2024:addFirebase 403
+[debug] [2024-08-23T10:13:37.012Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/personal-portfolio-web-2024:addFirebase {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-08-23T10:13:37.012Z] HTTP Error: 403, The caller does not have permission
+[debug] [2024-08-23T10:13:37.767Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\MSI GAMING\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\MSI GAMING\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:305:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to add Firebase to Google Cloud Platform project. See firebase-debug.log for more info.
+[debug] [2024-08-23T10:16:58.307Z] ----------------------------------------------------------------------
+[debug] [2024-08-23T10:16:58.318Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\MSI GAMING\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-08-23T10:16:58.319Z] CLI Version:   13.15.4
+[debug] [2024-08-23T10:16:58.319Z] Platform:      win32
+[debug] [2024-08-23T10:16:58.319Z] Node Version:  v20.16.0
+[debug] [2024-08-23T10:16:58.319Z] Time:          Fri Aug 23 2024 17:16:58 GMT+0700 (Western Indonesia Time)
+[debug] [2024-08-23T10:16:58.320Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-08-23T10:16:58.329Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-08-23T10:16:58.330Z] > authorizing via signed-in user (rezakabdul021@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\MSI GAMING\Downloads\web-dev-projects\personal-portfolio
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-08-23T10:18:03.415Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-08-23T10:18:03.416Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"my-react-portfolio-2024","name":"Portfolio Website 2024"}
+[debug] [2024-08-23T10:18:05.360Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2024-08-23T10:18:05.360Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/cp.7782532312137647125"}
+[debug] [2024-08-23T10:18:05.362Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7782532312137647125 [none]
+[debug] [2024-08-23T10:18:06.823Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7782532312137647125 200
+[debug] [2024-08-23T10:18:06.823Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7782532312137647125 {"name":"operations/cp.7782532312137647125"}
+[debug] [2024-08-23T10:18:07.334Z] [Project Creation Poller] Retrying task index 0
+[debug] [2024-08-23T10:18:07.335Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7782532312137647125 [none]
+[debug] [2024-08-23T10:18:07.926Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7782532312137647125 200
+[debug] [2024-08-23T10:18:07.926Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7782532312137647125 {"name":"operations/cp.7782532312137647125","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true}}
+[debug] [2024-08-23T10:18:08.939Z] [Project Creation Poller] Retrying task index 0
+[debug] [2024-08-23T10:18:08.940Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7782532312137647125 [none]
+[debug] [2024-08-23T10:18:09.609Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7782532312137647125 200
+[debug] [2024-08-23T10:18:09.609Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7782532312137647125 {"name":"operations/cp.7782532312137647125","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"507680134745","projectId":"my-react-portfolio-2024","lifecycleState":"ACTIVE","name":"Portfolio Website 2024","createTime":"2024-08-23T10:18:06.307645Z"}}
+[debug] [2024-08-23T10:18:09.611Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/my-react-portfolio-2024:addFirebase [none]
+[debug] [2024-08-23T10:18:11.280Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/my-react-portfolio-2024:addFirebase 403
+[debug] [2024-08-23T10:18:11.280Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/my-react-portfolio-2024:addFirebase {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-08-23T10:18:11.281Z] HTTP Error: 403, The caller does not have permission
+[debug] [2024-08-23T10:18:11.741Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\MSI GAMING\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\MSI GAMING\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:305:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to add Firebase to Google Cloud Platform project. See firebase-debug.log for more info.

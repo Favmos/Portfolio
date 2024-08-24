@@ -24,3 +24,6 @@ yarn-error.log*
 
 # environment variables
 .env
+
+#firebas
+echo "firebase-debug.log" >> .gitignore

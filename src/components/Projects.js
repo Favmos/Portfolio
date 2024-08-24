@@ -6,7 +6,6 @@ import project2 from "../assets/img/Project2.jpg";
 import melekatIND from "../assets/img/MelekatIND.png";
 import DAB from "../assets/img/DAB.png";
 import exploreit from "../assets/img/ExploreIT.png";
-import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -93,7 +92,6 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
     </section>
   )
 }
